@@ -3,14 +3,57 @@
 <html>
 
 <head>
+	<title> Job App Form </title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"> </script>
 
+	<h1> Job App Form </h1>
+
+	<form action="#" id="jobapp">
+
+		<label for="name" id="name"> Name* </label>
+		<input type="text" name="name" id="ip-name" required>
+
+		<br>
+		<label for="email" id="email"> Email* </label>
+		<input type="email" name="email" id="emailid" required>
+
+		<br>
+		<label for="gender"> Gender* </label>
+		<br>
+		<input type="radio" name="gender" id="male" required>
+		<label for="male"> Male </label>
+		<input type="radio" name="gender" id="female" required>
+		<label for="female"> Female </label>
+
+		<br>
+		<label for="laptop"> Laptop Brands </label>
+		<select name="laptopbrands" id="laptop">
+			<option value="apple"> Apple </option>
+			<option value="asus"> Asus </option>
+			<option value="hp"> HP </option>
+		</select>
+
+		<br>
+		<label for="age" id="age"> Age* </label>
+		<input type="number" name="age" id="ip-age" value="18"required>
+
+		<br>
+		<label for="dob"> DOB* </label>
+		<input type="date" name="dob" id="ip-dob" placeholder="dd/mm/yyyy" required>
+
+		<br>
+		<label for="pwd" id="password"> Password* </label>
+		<input type="password" name="pwd" id="ip-pwd" required>
+
+		<br>
+		<button type="submit" id="subbtn"> Submit </button>
+
+	</form>
 </body>
 
 </html>
